@@ -1,0 +1,20 @@
+node_modules/
+backend/node_modules/
+.env
+.DS_Store
+backend/.env.save
+
+dist/
+backend/server.js.backup
+
+# Temporary/debug files
+backend/helper-payment-debug.js
+backend/routes/taskRoutes.js.save
+
+# Backup/version files
+*.backup
+*.before-*
+*.save
+
+# Uploaded resource images
+backend/uploads/resources/*.png
